@@ -1,0 +1,14 @@
+.main {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margin: 0;
+  border: 15px solid #ffc23c;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 80%;
+  margin: auto auto;
+}

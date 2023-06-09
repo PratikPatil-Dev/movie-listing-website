@@ -1,0 +1,31 @@
+.searchBox {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 20px; */
+  width: fit-content;
+  margin: 20px auto ;
+}
+
+.searchBox input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.searchBox button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #FFC23C; /* Modify to your preferred color */
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.searchBox button:hover {
+  background-color: #000;
+  color: #FFC23C;
+}

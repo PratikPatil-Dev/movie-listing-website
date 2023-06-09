@@ -1,0 +1,23 @@
+.card {
+  background-color: #252525;
+  width: 12%; 
+  margin: 10px;
+  margin-top: 80px;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0.1;
+  border: 2px solid transparent;
+}
+
+.imgSec img {
+  max-width: 100%;
+}
+
+.cardContent{
+    text-align: center;
+    font-size: 12px;
+}
+
+.card:hover{
+    cursor: pointer;
+    border: 2px solid #ffc23c;
+}
